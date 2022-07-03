@@ -4,6 +4,7 @@ const ENDING = '서울특별시 영등포구 국회대로54길 10 9동 제4호 �
 
 const data = await fetchData();
 const widget = await createWidget();
+log('testing scriptdu.de...');
 
 widget.presentSmall();
 Script.setWidget(widget);
