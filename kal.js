@@ -21,7 +21,7 @@ async function createWidget() {
   const knifeImg = await getImage('knife');
 
   widget.backgroundColor = colors.bgColor;
-  widget.url = "https://seyounghan.com";
+  widget.url = "https://seyounghan.com/kal";
   widget.setPadding(5, 10, 15, 0);
 
   let headerContentStack = widget.addStack();
